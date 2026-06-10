@@ -16,7 +16,7 @@ export default function PublicView({ products, onAddToCart }) {
   return (
     <div style={styles.container}>
       <header style={styles.header}>
-        <h1 style={styles.mainTitle}>Amora Marketplace</h1>
+        <h1 style={styles.mainTitle}>B<sup>2</sup>T Group</h1>
         <p style={styles.subtitle}>Discover our curated collection of live products</p>
       </header>
 
