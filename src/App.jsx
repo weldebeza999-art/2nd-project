@@ -128,7 +128,7 @@ export default function App() {
   return (
     <div style={styles.globalWrapper}>
       <div style={styles.navBar}>
-        <div style={styles.brand}>Amora Enterprise Hub</div>
+        <div style={styles.brand}>B<sup>2</sup>T Group </div>
         <div style={{ display: 'flex', gap: '12px' }}>
           {/* Toggle Public/Admin */}
           <button
