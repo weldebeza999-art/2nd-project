@@ -24,9 +24,6 @@ export default function Cart({ cart, onRemove, onClear, totalPrice }) {
   return (
     <div style={styles.cartContainer}>
       <h2 style={styles.heading}>Your Cart</h2>
-      <button onClick={() => window.history.back()} style={styles.backBtn}>
-        ← Back to Store
-      </button>
 
       <div style={styles.cartItems}>
         {cart.map((item) => (
